@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
         
-        wxget ‘static_pages/about’
+        get ‘static_pages/about’
         
         get ‘static_pages/contact’
         
