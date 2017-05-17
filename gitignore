@@ -1,0 +1,69 @@
+Last login: Wed May 17 13:45:51 on ttys000
+MacsPro:sample_app magnuskreisel$ .gitignore
+-bash: .gitignore: command not found
+MacsPro:sample_app magnuskreisel$ *.rbc
+-bash: *.rbc: command not found
+MacsPro:sample_app magnuskreisel$ capybara-*.html
+-bash: capybara-*.html: command not found
+MacsPro:sample_app magnuskreisel$ .rspec
+-bash: .rspec: command not found
+MacsPro:sample_app magnuskreisel$ /log
+-bash: /log: No such file or directory
+MacsPro:sample_app magnuskreisel$ /tmp
+-bash: /tmp: is a directory
+MacsPro:sample_app magnuskreisel$ /db/*.sqlite3
+-bash: /db/*.sqlite3: No such file or directory
+MacsPro:sample_app magnuskreisel$ /db/*.sqlite3-journal
+-bash: /db/*.sqlite3-journal: No such file or directory
+MacsPro:sample_app magnuskreisel$ /public/system
+-bash: /public/system: No such file or directory
+MacsPro:sample_app magnuskreisel$ /coverage/
+-bash: /coverage/: No such file or directory
+MacsPro:sample_app magnuskreisel$ /spec/tmp
+-bash: /spec/tmp: No such file or directory
+MacsPro:sample_app magnuskreisel$ *.orig
+-bash: *.orig: command not found
+MacsPro:sample_app magnuskreisel$ rerun.txt
+-bash: rerun.txt: command not found
+MacsPro:sample_app magnuskreisel$ pickle-email-*.html
+-bash: pickle-email-*.html: command not found
+MacsPro:sample_app magnuskreisel$ 
+MacsPro:sample_app magnuskreisel$ # TODO Comment out this rule if you are OK with secrets being uploaded to the repo
+MacsPro:sample_app magnuskreisel$ config/initializers/secret_token.rb
+-bash: config/initializers/secret_token.rb: No such file or directory
+MacsPro:sample_app magnuskreisel$ 
+MacsPro:sample_app magnuskreisel$ # Only include if you have production secrets in this file, which is no longer a Rails default
+MacsPro:sample_app magnuskreisel$ # config/secrets.yml
+MacsPro:sample_app magnuskreisel$ 
+MacsPro:sample_app magnuskreisel$ # dotenv
+MacsPro:sample_app magnuskreisel$ # TODO Comment out this rule if environment variables can be committed
+MacsPro:sample_app magnuskreisel$ .env
+-bash: .env: command not found
+MacsPro:sample_app magnuskreisel$ 
+MacsPro:sample_app magnuskreisel$ ## Environment normalization:
+MacsPro:sample_app magnuskreisel$ /.bundle
+-bash: /.bundle: No such file or directory
+MacsPro:sample_app magnuskreisel$ /vendor/bundle
+-bash: /vendor/bundle: No such file or directory
+MacsPro:sample_app magnuskreisel$ 
+MacsPro:sample_app magnuskreisel$ # these should all be checked in to normalize the environment:
+MacsPro:sample_app magnuskreisel$ # Gemfile.lock, .ruby-version, .ruby-gemset
+MacsPro:sample_app magnuskreisel$ 
+MacsPro:sample_app magnuskreisel$ # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
+MacsPro:sample_app magnuskreisel$ .rvmrc
+-bash: .rvmrc: command not found
+MacsPro:sample_app magnuskreisel$ 
+MacsPro:sample_app magnuskreisel$ # if using bower-rails ignore default bower_components path bower.json files
+MacsPro:sample_app magnuskreisel$ /vendor/assets/bower_components
+-bash: /vendor/assets/bower_components: No such file or directory
+MacsPro:sample_app magnuskreisel$ *.bowerrc
+-bash: *.bowerrc: command not found
+MacsPro:sample_app magnuskreisel$ bower.json
+-bash: bower.json: command not found
+MacsPro:sample_app magnuskreisel$ 
+MacsPro:sample_app magnuskreisel$ # Ignore pow environment settings
+MacsPro:sample_app magnuskreisel$ .powenv
+-bash: .powenv: command not found
+MacsPro:sample_app magnuskreisel$ 
+MacsPro:sample_app magnuskreisel$ # Ignore Byebug command history file.
+MacsPro:sample_app magnuskreisel$ .byebug_history
