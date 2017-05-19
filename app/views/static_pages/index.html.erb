@@ -1,6 +1,13 @@
-<h1>Welcome to Bike Berlin</h1>
-<h2>Your source for used bikes in Berlin</h2>
-<p>Welcome! The date and time is <%= Time.now %></p>
-<%= image_tag ("racebike.jpg") %>
-<% test_variable = 42 %>
-<%= test_variable %>
+
+
+<div class="container-fluid">
+	<div class="textbody index">
+		<h1>Welcome to Bike Berlin!</h1>
+		<h2>Your source for the best used bikes in Berlin.</h2>
+		<h3>Below, you can find a collection of some of our bikes. Visit our store to find many more and try them out!</h3>
+
+<div class="row">
+			<div class="col-md-4 col-sm-6 col-xs-12"><%= image_tag("/assets/racebike.jpg", class: "img-responsive")%></div>
+			</div>
+		</div>
+	</div>		
